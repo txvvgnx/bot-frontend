@@ -1,0 +1,126 @@
+@font-face {
+    font-family: usHeavy;
+    src: url(fonts/unisansheavy.otf);
+}
+
+@font-face {
+    font-family: whitneyBold;
+    src: url(fonts/whitneybold.otf);
+}
+
+@font-face {
+    font-family: whitneyMed;
+    src: url(fonts/whitneymedium.otf);
+}
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+.top-header {
+    padding: 0;
+    margin: 0;  
+    width: 100%;
+    height: 2%;
+    background-color: rgb(114,137,218)
+}
+
+.login-modal {
+    position: absolute;
+    left: 32.5%;
+    top: 25%;
+
+    z-index: 2;
+    background-color: black;
+    width: 35%;
+    height: 50%;
+}
+
+.login-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+#small-logo {
+    color: white;
+    font-size: 24px;
+    margin-top: 4px;
+    font-family: 'usHeavy';
+}
+
+#username {
+    outline: 0;
+    padding: 8px;
+    margin-top: 8px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-family: 'whitneyMed';
+    font-size: 14px;
+    width: 45%;
+    height: 12%;
+}
+
+#password {
+    outline: 0;
+    padding: 8px;
+    margin-top: 8px;
+    background-color: black;
+    color: white;
+    border: 2px solid white;
+    border-radius: 8px;
+    font-family: 'whitneyMed';
+    font-size: 14px;
+    width: 45%;
+    height: 12%;
+}
+
+#submit {
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 8px;
+    width: 20%;
+    cursor: pointer;
+    margin-top: 10px;
+    color: white;
+    font-family: 'usHeavy';
+    text-align: center;
+}
+
+#error {
+    color: red;
+    margin: 8px;
+    font-family: 'usHeavy';
+    font-size: 12px;
+}
+
+.itemcontainer {
+    display: flex;
+    flex-direction: row;
+    height: 98%;
+    width: 100%;
+}
+
+.serversidebar {
+    height: 100%;
+    width: 5%;
+    background-color: rgb(30,33,36);
+}
+
+.channelsidebar {
+    height: 100%;
+    width: 15%;
+    background-color: rgb(54,57,62);
+}
+
+.chat {
+    height: 100%;
+    width: 85%;
+    background-color: rgb(66,69,73);
+}
